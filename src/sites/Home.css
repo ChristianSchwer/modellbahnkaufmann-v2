@@ -1,0 +1,61 @@
+.Landingpage {
+    box-shadow: 0 4px 8px 0 rgb(210, 210, 210);
+    border-radius: 8px;
+    margin: 5%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(239, 239, 239);
+}
+
+.LandingpageText {
+    margin: 0;
+}
+
+.Post {
+    box-shadow: 0 4px 8px 0 rgb(210, 210, 210);
+    border-radius: 8px;
+    margin: 5%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(239, 239, 239);
+}
+
+.PostDateWrapper {
+    position: absolute;
+    background-color: rgba(116, 197, 255, 0.455);
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: -5px -6px;
+}
+
+.PostDate {
+    margin: 0;
+}
+
+.PostWrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.PostTextWrapper {
+    /* flex: 2; */
+}
+
+.PostText {
+
+}
+
+.PostImageWrapper {
+    /* flex: 1; */
+    max-height: 350px;
+}
+
+.PostImage {
+    height: 100%;
+}
+
+/* @media screen and (max-width: 960px) {
+    .Lendingpage {
+        margin: 0 0.5% 1% 0.5%
+    }
+} */

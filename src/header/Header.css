@@ -1,0 +1,67 @@
+.Header {
+}
+
+.HeaderWrapper {
+    background-color: rgb(222, 222, 222);
+    padding: 0px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+    justify-items: center;
+    border-color: black;
+    border-bottom: 1px solid;
+}
+
+.HeaderImage {
+
+}
+
+.HeaderContainer {
+}
+
+.HeaderSlogan {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.HeaderInfoWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: left;
+    font-size: 16px;
+}
+
+.HeaderInfo1 {
+
+}
+
+.HeaderInfo2 {
+
+}
+
+.HeaderInfo {
+    margin: 0;
+}
+
+.Navbar {
+    background-color: rgb(172, 172, 172);
+    border-color: black;
+    border-bottom: 1px solid;
+    display: flex;
+}
+
+.NavbarLinks {
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    text-decoration: none;
+    flex-grow: 2;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+}
+  
+.NavbarLinks:hover {
+  border-bottom: 4px solid rgb(0, 0, 0);
+  transition: all 0.2s ease-out;
+}
